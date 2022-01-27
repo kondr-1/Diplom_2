@@ -1,0 +1,53 @@
+{
+  "uid" : "742b317d6d3b8729",
+  "name" : "newCourier",
+  "historyId" : "authorizationUser.AuthorizationUserTest:authorizationUser.AuthorizationUserTest#newCourier",
+  "time" : {
+    "duration" : 1693
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ce37920f2aa027d7",
+      "name" : "System out",
+      "source" : "ce37920f2aa027d7.txt",
+      "type" : "text/plain",
+      "size" : 577
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "authorizationUser.AuthorizationUserTest"
+  }, {
+    "name" : "testClass",
+    "value" : "authorizationUser.AuthorizationUserTest"
+  }, {
+    "name" : "package",
+    "value" : "authorizationUser.AuthorizationUserTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "742b317d6d3b8729.json",
+  "parameterValues" : [ ]
+}

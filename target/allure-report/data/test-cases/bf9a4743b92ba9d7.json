@@ -1,0 +1,59 @@
+{
+  "uid" : "bf9a4743b92ba9d7",
+  "name" : "createOrderNotIngredients",
+  "historyId" : "CreateOrder.CreateOrderTest:CreateOrder.CreateOrderTest#createOrderNotIngredients",
+  "time" : {
+    "duration" : 1467
+  },
+  "status" : "failed",
+  "statusMessage" : "expected: <200> but was: <429>",
+  "statusTrace" : "org.opentest4j.AssertionFailedError: expected: <200> but was: <429>\n\tat CreateOrder.CreateOrderTest.deleteUser(CreateOrderTest.java:46)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8d18369b89acfe8b",
+      "name" : "System out",
+      "source" : "8d18369b89acfe8b.txt",
+      "type" : "text/plain",
+      "size" : 710
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "CreateOrder.CreateOrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "CreateOrder.CreateOrderTest"
+  }, {
+    "name" : "package",
+    "value" : "CreateOrder.CreateOrderTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bf9a4743b92ba9d7.json",
+  "parameterValues" : [ ]
+}

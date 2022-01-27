@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: changeUser.ChangeUserTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.922 s <<< FAILURE! - in changeUser.ChangeUserTest
+changeUserNotAuth  Time elapsed: 1.713 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <401> but was: <403>
+	at changeUser.ChangeUserTest.changeUserNotAuth(ChangeUserTest.java:90)
+
+createCourierNotLineName  Time elapsed: 1.52 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <429>
+	at changeUser.ChangeUserTest.createUser(ChangeUserTest.java:34)
+

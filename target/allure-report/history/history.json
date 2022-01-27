@@ -1,0 +1,381 @@
+{
+  "createUser.CreateNewUserTest:createUser.CreateNewUserTest#createTwoSameUser" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b8c12aca14fe2d0",
+      "status" : "passed",
+      "time" : {
+        "duration" : 570
+      }
+    } ]
+  },
+  "changeUser.ChangeUserTest:changeUser.ChangeUserTest#changeUserNotAuth" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d2d47d6b528a61",
+      "status" : "failed",
+      "statusDetails" : "expected: <401> but was: <403>",
+      "time" : {
+        "duration" : 1713
+      }
+    } ]
+  },
+  "CreateOrder.CreateOrderTest:CreateOrder.CreateOrderTest#createOrderNotAuth" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "930d9daef13b5f0a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2021
+      }
+    } ]
+  },
+  "CreateOrder.CreateOrderTest:CreateOrder.CreateOrderTest#createOrderNotValidateIngredients" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf3df7f6103e11b4",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1882
+      }
+    } ]
+  },
+  "authorizationUser.AuthorizationUserTest:authorizationUser.AuthorizationUserTest#createCourierNotLineName" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd49f0acdcbccce6",
+      "status" : "failed",
+      "statusDetails" : "expected: <401> but was: <200>",
+      "time" : {
+        "duration" : 7890
+      }
+    } ]
+  },
+  "CreateOrder.CreateOrderTest:CreateOrder.CreateOrderTest#createOrderNotIngredients" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf9a4743b92ba9d7",
+      "status" : "failed",
+      "statusDetails" : "expected: <200> but was: <429>",
+      "time" : {
+        "duration" : 1467
+      }
+    } ]
+  },
+  "createUser.CreateNewUserTest:createUser.CreateNewUserTest#newUser" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18f5f4af01f2167b",
+      "status" : "passed",
+      "time" : {
+        "duration" : 325
+      }
+    } ]
+  },
+  "authorizationUser.AuthorizationUserTest:authorizationUser.AuthorizationUserTest#createCourierNotLinePassword" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13a65c94a4a822ba",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1844
+      }
+    } ]
+  },
+  "CreateOrder.CreateOrderTest:CreateOrder.CreateOrderTest#createOrder" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34f76cc05904873c",
+      "status" : "failed",
+      "statusDetails" : "expected: <200> but was: <429>",
+      "time" : {
+        "duration" : 825
+      }
+    } ]
+  },
+  "getOrder.GetOrderTest:getOrder.GetOrderTest#getOrdersUserNotAuth" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "900485d7ab0a8a7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2107
+      }
+    } ]
+  },
+  "createUser.CreateNewUserTest:createUser.CreateNewUserTest#createUserNotLine{String, String, String}[2]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84a02103625e6d07",
+      "status" : "passed",
+      "time" : {
+        "duration" : 247
+      }
+    } ]
+  },
+  "createUser.CreateNewUserTest:createUser.CreateNewUserTest#createUserNotLine{String, String, String}[1]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "47fd2dee952a7629",
+      "status" : "passed",
+      "time" : {
+        "duration" : 302
+      }
+    } ]
+  },
+  "authorizationUser.AuthorizationUserTest:authorizationUser.AuthorizationUserTest#newCourier" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "742b317d6d3b8729",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1693
+      }
+    } ]
+  },
+  "changeUser.ChangeUserTest:changeUser.ChangeUserTest#changeUserName" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a438b1bcbc08c93",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2190
+      }
+    } ]
+  },
+  "getOrder.GetOrderTest:getOrder.GetOrderTest#getOrdersUser" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f0ccc9d3b9d39a9",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2134
+      }
+    } ]
+  },
+  "createUser.CreateNewUserTest:createUser.CreateNewUserTest#createUserNotLine{String, String, String}[4]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70a2f03811303c6c",
+      "status" : "passed",
+      "time" : {
+        "duration" : 249
+      }
+    } ]
+  },
+  "createUser.CreateNewUserTest:createUser.CreateNewUserTest#createUserNotLine{String, String, String}[3]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a07d22012e0697",
+      "status" : "passed",
+      "time" : {
+        "duration" : 234
+      }
+    } ]
+  },
+  "createUser.CreateNewUserTest:createUser.CreateNewUserTest#createUserNotLine{String, String, String}[6]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63f92892678d4f66",
+      "status" : "passed",
+      "time" : {
+        "duration" : 247
+      }
+    } ]
+  },
+  "changeUser.ChangeUserTest:changeUser.ChangeUserTest#createCourierNotLineName" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b164bdce3cf577",
+      "status" : "failed",
+      "statusDetails" : "expected: <200> but was: <429>",
+      "time" : {
+        "duration" : 1520
+      }
+    } ]
+  },
+  "changeUser.ChangeUserTest:changeUser.ChangeUserTest#changeUserEmail" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1015cb0b0a9a9ffa",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2464
+      }
+    } ]
+  },
+  "CreateOrder.CreateOrderTest:CreateOrder.CreateOrderTest#createOrderNullIngredients" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a88c2c45e38424e",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1950
+      }
+    } ]
+  },
+  "createUser.CreateNewUserTest:createUser.CreateNewUserTest#createUserNotLine{String, String, String}[5]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e6ef7387f396d22",
+      "status" : "passed",
+      "time" : {
+        "duration" : 251
+      }
+    } ]
+  }
+}
