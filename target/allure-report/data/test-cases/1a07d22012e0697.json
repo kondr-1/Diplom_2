@@ -1,0 +1,53 @@
+{
+  "uid" : "1a07d22012e0697",
+  "name" : "createUserNotLine{String, String, String}[3]",
+  "historyId" : "createUser.CreateNewUserTest:createUser.CreateNewUserTest#createUserNotLine{String, String, String}[3]",
+  "time" : {
+    "duration" : 234
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5d55dc406f67082c",
+      "name" : "System out",
+      "source" : "5d55dc406f67082c.txt",
+      "type" : "text/plain",
+      "size" : 309
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "createUser.CreateNewUserTest"
+  }, {
+    "name" : "testClass",
+    "value" : "createUser.CreateNewUserTest"
+  }, {
+    "name" : "package",
+    "value" : "createUser.CreateNewUserTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a07d22012e0697.json",
+  "parameterValues" : [ ]
+}

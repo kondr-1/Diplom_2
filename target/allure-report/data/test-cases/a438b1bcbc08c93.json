@@ -1,0 +1,53 @@
+{
+  "uid" : "a438b1bcbc08c93",
+  "name" : "changeUserName",
+  "historyId" : "changeUser.ChangeUserTest:changeUser.ChangeUserTest#changeUserName",
+  "time" : {
+    "duration" : 2190
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a0b81607429f9962",
+      "name" : "System out",
+      "source" : "a0b81607429f9962.txt",
+      "type" : "text/plain",
+      "size" : 711
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "changeUser.ChangeUserTest"
+  }, {
+    "name" : "testClass",
+    "value" : "changeUser.ChangeUserTest"
+  }, {
+    "name" : "package",
+    "value" : "changeUser.ChangeUserTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a438b1bcbc08c93.json",
+  "parameterValues" : [ ]
+}
