@@ -1,4 +1,4 @@
-package CreateOrder;
+package createOrder;
 
 import api.requests.CreateUser;
 import api.requests.Order;

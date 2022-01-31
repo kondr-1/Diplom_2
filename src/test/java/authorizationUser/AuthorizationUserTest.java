@@ -14,18 +14,20 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AuthorizationUserTest {
     private static CreateUser createUser;
-    private static CreateUser createUserFirst;
+    private static String password;
+    private static String name;
 
     @BeforeEach
     void createUser() {
         createUser = new TestDataGenerator().createUserGetAccessToken();
-        createUserFirst = new TestDataGenerator().createUserGetAccessToken();
-        createUserFirst.setName(createUser.getName());
-        createUserFirst.setPassword(createUser.getPassword());
+        password = createUser.getPassword();
+        name = createUser.getName();
     }
 
     @AfterEach
     void deleteUser() {
+        createUser.setPassword(password);
+        createUser.setName(name);
         new TestDataGenerator().deleteUser(new TestDataGenerator().authUser(createUser));
     }
 
@@ -42,7 +44,7 @@ public class AuthorizationUserTest {
         createUser.setPassword("Anton");
         Response authorizationUser = MethodService.postRequest(AUTHORIZATION_USER, createUser);
         assertEquals(401, authorizationUser.statusCode());
-        createUser.setPassword(createUserFirst.getPassword());
+
     }
 
     @Test
@@ -51,6 +53,5 @@ public class AuthorizationUserTest {
         createUser.setName("Anton");
         Response authorizationUser = MethodService.postRequest(AUTHORIZATION_USER, createUser);
         assertEquals(401, authorizationUser.statusCode());
-        createUser.setName(createUserFirst.getName());
     }
 }
